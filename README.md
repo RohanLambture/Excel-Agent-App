@@ -61,6 +61,4 @@ This app uses the following libraries and services:
 - [pandasai](https://github.com/pandasai/pandasai)
 - [openpyxl](https://openpyxl.readthedocs.io/en/stable/)
 
-## Repository
 
-[Excel Data Analysis and Visualization App](https://github.com/RohanLambture/Excel-Agent-App)
