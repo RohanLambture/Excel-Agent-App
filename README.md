@@ -2,14 +2,15 @@
 
 ## Overview
 
-This Streamlit application allows users to upload an Excel file, query the data using natural language, and receive responses in the form of text or visual plots. The application leverages the LangChain Groq model for natural language processing and pandasai for smart dataframe operations.
+This Streamlit application allows users to upload an Excel file, query the data using natural language, and receive responses in the form of text or visual plots. The application leverages the LangChain Groq model for natural language processing and pandasai for smart dataframe operations. Additionally, users can download the plot and the relevant data as an editable Excel file and verify the accuracy of the generated plots.
 
 ## Features
 
 - Upload and preview Excel files.
 - Query the data using natural language.
 - Generate visual plots based on the queries.
-- Download the plot and data as an Excel file.
+- Download the plot and relevant data as an editable Excel file.
+- Verify the accuracy of the generated plots.
 
 ## Installation
 
@@ -56,9 +57,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 This app uses the following libraries and services:
 
-- [Streamlit](https://streamlit.io/)
-- [LangChain Groq](https://groq.com/)
-- [pandasai](https://github.com/pandasai/pandasai)
-- [openpyxl](https://openpyxl.readthedocs.io/en/stable/)
-
-
+- Streamlit
+- LangChain Groq
+- pandasai
+- openpyxl
